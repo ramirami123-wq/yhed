@@ -12,6 +12,14 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "image_YRNEBB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1774964647_phppaapgja53o8k77XomcZ.jpg",
+            "image_alignment": "center",
+            "image_width": 370
+          }
+        },
         "liquid_pyttrH": {
           "type": "liquid",
           "settings": {
@@ -65,6 +73,7 @@
         }
       },
       "block_order": [
+        "image_YRNEBB",
         "liquid_pyttrH",
         "liquid_KKiNTm",
         "liquid_WqHpzt",
