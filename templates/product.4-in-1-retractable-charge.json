@@ -26,17 +26,21 @@
             "liquid": "<style>\n.star-review-wrapper {\ndisplay: flex;\nalign-items: center;\ngap: 8px;\nflex-shrink: 0;\n}\n.star-icons svg {\nwidth: 20px;\nheight: 20px;\nfill: #111; /* Your deep red color */\n}\n.review-text {\nfont-size: 16px;\nfont-weight: 500;\ncolor: #333;\nwhite-space: nowrap;\n}\n@media (max-width: 480px) {\n.star-review-wrapper {\nflex-direction: row;\njustify-content: center;\n}\n​\n}\n</style>\n<div class=\"star-review-wrapper\">\n<div class=\"star-icons\">\n<!-- 5 Rounded Stars -->\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n</div>\n<div class=\"review-text\">\n<strong>5</strong> by <strong>124+</strong> Customers\n</div>\n</div>"
           }
         },
+        "description_JVFcjC": {
+          "type": "description",
+          "settings": {}
+        },
+        "liquid_ceyTmc": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "4-in-1 Retractable Super Fast Charging Cable\n\nEngineered for efficiency and built for versatility, the 4-in-1 Retractable Super Fast Charging Cable is the definitive charging solution for professionals and tech-savvy individuals alike.\n\nUniversal Compatibility Compatible with Lightning, USB-C, Micro USB, and standard USB-A devices — a single cable that powers your entire ecosystem of devices without compromise.\n\nRetractable Mechanism The precision-engineered retractable design ensures effortless portability. Compact enough for any pocket or bag, it eliminates cable tangling and delivers a clean, organized charging experience wherever you are.\n\nSuper Fast Charging Technology Equipped with advanced fast-charging capabilities, this cable delivers optimal power output to reduce charging time significantly — keeping your devices ready when you need them most.\n\nPremium Build Quality Constructed with high-grade materials and reinforced connectors, this cable is designed to endure thousands of uses while maintaining peak performance and reliability.\n\nDesigned for the Modern Professional Whether in the office, on a business trip, or commuting daily — this cable adapts to your lifestyle, consolidating your charging needs into one sleek, intelligent solution."
+          }
+        },
         "liquid_KKiNTm": {
           "type": "liquid",
           "name": "Hurry",
           "settings": {
             "liquid": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:white;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:#111;\n      color:white;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#00000;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
-          }
-        },
-        "liquid_WqHpzt": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">✨ Smart Auto Diffuser</span> – Automatically turns ON/OFF with your car for effortless, hands-free fragrance every time you drive.<br><br>\n\n<span style=\"font-weight: bold;\">🌟 Elegant Star Light Glow</span> – A stunning ambient light adds a luxurious touch to your car interior, day or night.<br><br>\n\n<span style=\"font-weight: bold;\">🔋 Rechargeable & Wireless</span> – Built-in 300mAh battery ensures long-lasting use without messy cables or constant charging.<br><br>\n\n<span style=\"font-weight: bold;\">💧 Large 160ml Capacity</span> – Enjoy long-lasting freshness without frequent refills, perfect for daily drives and long trips.<br><br>\n\n<span style=\"font-weight: bold;\">🌿 Multiple Scents Available</span> – Choose from Oud, White Peach, Gardenia & more to match your mood and style.\n\n</div>"
           }
         },
         "variant_picker": {
@@ -75,8 +79,9 @@
       "block_order": [
         "image_YRNEBB",
         "liquid_pyttrH",
+        "description_JVFcjC",
+        "liquid_ceyTmc",
         "liquid_KKiNTm",
-        "liquid_WqHpzt",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -157,39 +162,6 @@
       ],
       "settings": {}
     },
-    "image_with_text_8YkwVd": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_BrjwQF": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/7MD_Rechargeable_Fragrance_Air_Diffuser_With_Fragrance_Oil_Included_For_Car_or_Room___7MD2435.jpg",
-            "tab_label": "Item",
-            "subheading": "",
-            "title": "Smart Fragrance, Effortless Drive",
-            "content": "<p>Upgrade your car with a diffuser that works automatically with your engine. Enjoy a fresh, pleasant atmosphere every time you drive without lifting a finger.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_BrjwQF"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "blocks_cXgjwD": {
       "type": "_blocks",
       "blocks": {
@@ -224,39 +196,6 @@
       ],
       "name": "Marquee",
       "settings": {}
-    },
-    "image_with_text_XrnFrQ": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_GpEwj6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/71fJY9Xt8hL._AC_UL495_SR435_495.jpg",
-            "tab_label": "",
-            "subheading": "",
-            "title": "Luxury Feel in Every Journey",
-            "content": "<p>Add a touch of elegance to your car with a sleek design and ambient glow. Combined with long-lasting fragrance, it transforms every ride into a more relaxing and enjoyable experience.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_GpEwj6"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
     },
     "com_6hdjLn": {
       "type": "com",
@@ -532,9 +471,7 @@
     "product-content",
     "product-recommendations",
     "1772112756b71eda01",
-    "image_with_text_8YkwVd",
     "blocks_cXgjwD",
-    "image_with_text_XrnFrQ",
     "com_6hdjLn",
     "faq_cbkQ3V",
     "177600410088d98421",
