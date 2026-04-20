@@ -62,6 +62,106 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "collection_list_cPREFR": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_fwEtbx": {
+          "type": "collection",
+          "settings": {
+            "collection": "car-care-detailing",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_UY8gHx": {
+          "type": "collection",
+          "settings": {
+            "collection": "car-accessories",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_izGgCi": {
+          "type": "collection",
+          "settings": {
+            "collection": "tech-gadgets",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_cqdeWa": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_fVpC8R": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_nM7JVW": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_fwEtbx",
+        "collection_UY8gHx",
+        "collection_izGgCi",
+        "collection_cqdeWa",
+        "collection_fVpC8R",
+        "collection_nM7JVW"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "Subheading",
+        "title": "Collection list",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "featured_product_qm78ER": {
       "type": "featured-product",
       "blocks": {
@@ -282,6 +382,7 @@
   },
   "order": [
     "slideshow",
+    "collection_list_cPREFR",
     "featured_product_qm78ER",
     "blocks_qnjqdX",
     "17721123692ddca8e9",
